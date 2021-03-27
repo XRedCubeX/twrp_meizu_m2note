@@ -14,6 +14,15 @@ Kernel  | 3.10.65
 
 ![M2Note](https://www.schermata.it/img/meizu-m1-note2.jpg "M2Note")
 
+STATUS:
+
+Bugs:
+On some devices the touch could give problems on some buttons such as: Shutdown device and go back a folder.
+Otherwise it is stable
+
+Note:
+I decided to compile this TWRP because no TWRP is compatible with Lineage OS 14.1 and the only one that could install it has become unobtainable. Another reason is also to port a TWRP with all the latest changes and support for the new version of Magisk
+
 
 How to compile TWRP for this device:
 
