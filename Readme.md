@@ -26,7 +26,9 @@ I decided to compile this TWRP because no TWRP is compatible with Lineage OS 14.
 
 How to compile TWRP for this device:
 
-```mkdir twrp
+```
+mkdir twrp
+
 cd twrp
 
 repo init -u git://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git -b twrp-8.1
