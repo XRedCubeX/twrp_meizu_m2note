@@ -14,6 +14,4 @@
 # limitations under the License.
 #
 
-PRODUCT_COPY_FILES += \
-       device/xolo/v0811/prebuilt/kernel:kernel \
-       device/xolo/v0811/recovery/fstab.mt6753:root/fstab.mt6753 
+PRODUCT_COPY_FILES += device/meizu/m2note/recovery/fstab.mt6753:root/fstab.mt6753

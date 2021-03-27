@@ -14,9 +14,9 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/xolo/v0811
+LOCAL_PATH := device/meizu/m2note
 
-ifeq ($(TARGET_DEVICE),v0811)
+ifeq ($(TARGET_DEVICE),m2note)
 
 include $(call all-makefiles-under,$(LOCAL_PATH))
 

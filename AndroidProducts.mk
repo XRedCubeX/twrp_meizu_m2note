@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    device/xolo/v0811/omni_v0811.mk 
+    device/meizu/m2note/omni_m2note.mk

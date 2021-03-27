@@ -1,2 +1,1 @@
-add_lunch_combo omni_v0811-userdebug 
-add_lunch_combo omni_v0811-eng
+add_lunch_combo omni_m2note-eng
