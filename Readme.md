@@ -17,12 +17,18 @@ Kernel  | 3.10.65
 
 How to compile TWRP for this device:
 
-mkdir twrp
+```mkdir twrp
 cd twrp
+
 repo init -u git://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git -b twrp-8.1
+
 repo sync
+
 git clone https://github.com/XRedCubeX/twrp_meizu_m2note.git -b twrp-8.1 device/meizu/m2note
+
 git clone https://github.com/XRedCubeX/android_kernel_m2note -b o-8.1 kernel/meizu/m2note
+
 export ALLOW_MISSING_DEPENDENCIES=true; . build/envsetup.sh; lunch omni_m2note-eng; mka recoveryimage
+```
 
 You will now find the file recovery in: out/target/product/m2note/recovery.img
