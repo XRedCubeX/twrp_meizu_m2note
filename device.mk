@@ -14,4 +14,6 @@
 # limitations under the License.
 #
 
-PRODUCT_COPY_FILES += device/meizu/m2note/recovery/fstab.mt6753:root/fstab.mt6753
+PRODUCT_COPY_FILES += \
+		$(LOCAL_PATH)/recovery/fstab.mt6753:root/fstab.mt6753 \
+		$(LOCAL_PATH)/recovery/root/init.recovery.mt6735.rc:root/init.recovery.mt6735.rc

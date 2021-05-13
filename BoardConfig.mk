@@ -41,9 +41,8 @@ TARGET_CPU_SMP := true
 
 # Kernel
 BOARD_KERNEL_CMDLINE := bootopt=64S3,32N2,32N2 androidboot.selinux=permissive 
-TARGET_KERNEL_SOURCE := kernel/meizu/m2note
-TARGET_KERNEL_CONFIG := m2note_defconfig
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
+TARGET_PREBUILT_KERNEL := device/meizu/m2note/recovery/Image.gz-dtb
 MTK_APPENDED_DTB_SUPPORT := yes
 BOARD_KERNEL_BASE := 0x40078000
 BOARD_KERNEL_OFFSET := 0x00008000
